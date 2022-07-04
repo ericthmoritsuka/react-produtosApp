@@ -8,10 +8,14 @@ const Header = () => {
       <ul>
         <li>
           {/* end para evitar o problema ao utilizar o active */}
-          <NavLink className={styles.link} to="/" end>Produtos</NavLink> 
+          <NavLink className={styles.link} to="/" end>
+            Produtos
+          </NavLink>
         </li>
         <li>
-          <NavLink className={styles.link} to="/contato">Contato</NavLink>
+          <NavLink className={styles.link} to="/contato">
+            Contato
+          </NavLink>
         </li>
       </ul>
     </nav>

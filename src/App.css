@@ -44,7 +44,7 @@ h1 {
   }
 }
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
   max-width: 40rem;
