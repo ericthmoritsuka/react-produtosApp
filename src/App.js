@@ -10,13 +10,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/react-produtosApp">
+      <HashRouter>
         <Header />
         <div className="contentApp">
           <Routes>
-            <Route exact path="/" element={<Produtos />} />
-            <Route exact path="/produto/:id" element={<Produto />} />
-            <Route exact path="/contato" element={<Contato />} />
+            <Route path="/" element={<Produtos />} />
+            <Route path="/produto/:id" element={<Produto />} />
+            <Route path="/contato" element={<Contato />} />
           </Routes>
         </div>
         <Footer />
