@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-produtosApp/static/css/main.bcb4d5b7.css",
-    "main.js": "/react-produtosApp/static/js/main.dcce1216.js",
+    "main.js": "/react-produtosApp/static/js/main.3b68d73c.js",
     "static/js/787.08d952ae.chunk.js": "/react-produtosApp/static/js/787.08d952ae.chunk.js",
     "static/media/typewriter.jpg": "/react-produtosApp/static/media/typewriter.36f72291c7ba0d925e4d.jpg",
     "index.html": "/react-produtosApp/index.html",
     "main.bcb4d5b7.css.map": "/react-produtosApp/static/css/main.bcb4d5b7.css.map",
-    "main.dcce1216.js.map": "/react-produtosApp/static/js/main.dcce1216.js.map",
+    "main.3b68d73c.js.map": "/react-produtosApp/static/js/main.3b68d73c.js.map",
     "787.08d952ae.chunk.js.map": "/react-produtosApp/static/js/787.08d952ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcb4d5b7.css",
-    "static/js/main.dcce1216.js"
+    "static/js/main.3b68d73c.js"
   ]
 }
