@@ -10,11 +10,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/react-produtosApp">
         <Header />
         <div className="contentApp">
           <Routes>
-            <Route path="react-produtosApp" element={<Produtos />} />
+            <Route path="/" element={<Produtos />} />
             <Route path="produto/:id" element={<Produto />} />
             <Route path="contato" element={<Contato />} />
           </Routes>
