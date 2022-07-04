@@ -17,7 +17,7 @@ const Produtos = () => {
     <section className={`${styles.produtos} animeLeft`}>
       <Head title="produtosApp" description="Descricao do site" />
       {produtos.map((produto) => (
-        <Link to={`react-produtosApp/produto/${produto.id}`} key={produto.id}>
+        <Link to={`produto/${produto.id}`} key={produto.id}>
           <img src={produto.fotos[0].src} alt={produto.fotos[0].titulo} />
           <h1 className={styles.name}>{produto.nome}</h1>
         </Link>
